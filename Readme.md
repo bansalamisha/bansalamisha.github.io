@@ -23,7 +23,7 @@
   - Used bootstrap for navigation bar across the pages.
 
   
-  - Website hosted on `web.iiit.ac.in/~amisha.bansal`
+  - Website hosted on `bansalamisha.github.io`
  
 
   - Using Javascript for animation
