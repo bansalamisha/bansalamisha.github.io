@@ -1,0 +1,208 @@
+
+    
+      .name {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 13vh;
+      }
+
+      .name > h1 {
+        font-size: 170%;
+        font-family: "Satisfy";
+        color: black;
+      }
+
+      .name > p {
+        font-size: 50%;
+        color: #757575;
+      }
+      .responsive {
+        max-width: 100%;
+        height: auto;
+      }
+      .my {
+        border: 1px solid black;
+        background-color: white;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+
+        text-align: center;
+      }
+	  .ball {
+		position: absolute;
+		border-radius: 100%;
+		opacity: 0.7;
+}
+      .myDiv {
+        border: 1px solid black;
+        background-color: white;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        height: 600px;
+        text-align: center;
+      }
+      .myDiv1 {
+        background-color: whitesmoke;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      .image {
+        width: 200px;
+        height: 200px;
+        border-radius: 1000px;
+        margin: 0vh auto 0vh auto;
+        padding-top: 13vh;
+      }
+
+      .image > img {
+        width: 200px;
+        height: 200px;
+        border-radius: 1000px;
+        -webkit-box-shadow: 2px 2px 10px black;
+        box-shadow: 2px 2px 10px black;
+      }
+      .contactBadge {
+        margin: 0 auto;
+        padding: 20px 0px;
+        text-align: center;
+      }
+
+      .contactBadge > a {
+        font-size: 350%;
+        text-shadow: 2px 2px 5px black;
+      }
+
+      #Facebook > i {
+        color: #3B5998;
+      }
+
+      #Twitter > i {
+        color: #00aced;
+      }
+
+      #Github > i {
+        color: black;
+      }
+
+      #LinkedIn > i {
+        color: #0077b5;
+      }
+
+      .contactBadge > a:hover {
+        -webkit-animation: elevate 0.3s ease-in-out forwards;
+        animation: elevate 0.3s ease-in-out forwards;
+      }
+
+      @-webkit-keyframes elevate {
+        100% {
+          -webkit-transition: scale(1.2);
+          -o-transition: scale(1.2);
+          transition: scale(1.2);
+          text-shadow: 4px 4px 4px black;
+        }
+      }
+      @keyframes elevate {
+        100% {
+          -webkit-transition: scale(1.2);
+          -o-transition: scale(1.2);
+          transition: scale(1.2);
+          text-shadow: 4px 4px 4px black;
+        }
+      }
+      .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+      .navbar-nav li a:hover {
+        color: white;
+      }
+      .myFooter {
+        text-align: center;
+        font-size: 20px;
+        height: 10vh;
+        background: lightgrey;
+        padding: 3vh;
+      }
+
+      .myFooter > span {
+        color: red;
+        padding: 0px 2px;
+        -webkit-animation: beat 1.5s ease-in-out infinite;
+        animation: beat 1.5s ease-in-out infinite;
+      }
+
+      @-webkit-keyframes beat {
+        50% {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+          text-shadow: 1px 1px 3px #2c2c2c;
+        }
+      }
+
+      @keyframes beat {
+        50% {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+          text-shadow: 1px 1px 3px #2c2c2c;
+        }
+      }
+
+      .myFooter > a {
+        text-decoration: none;
+      }
+      .wrapper {
+        background: url("https://i.pinimg.com/originals/4c/e6/2d/4ce62da8f3e5903e95a6e98965bbc37b.jpg");
+        color: #eee;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+        animation: animation 100s linear infinite;
+      }
+
+      @keyframes animation {
+        100% {
+          background-position: 0px -3000px;
+        }
+      }
+    
+      #myimg {
+        width: 100%;
+        height: 200px;
+      }
+   
